@@ -1,2 +1,4 @@
-package com.company;public class Crew {
+package com.company;
+
+public class Crew {
 }

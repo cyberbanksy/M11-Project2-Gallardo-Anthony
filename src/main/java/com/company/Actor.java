@@ -1,2 +1,4 @@
-package com.company;public class Actor {
+package com.company;
+
+public class Actor {
 }

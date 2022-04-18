@@ -2,8 +2,8 @@ package com.company;
 
 public class Person {
     // state or properties
-    private String name;
-    private double salary;
+    protected String name;
+    protected double salary;
     private double earnedIncome;
 
     public void setName(String name){
