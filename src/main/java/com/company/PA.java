@@ -1,13 +1,9 @@
 package com.company;
-<<<<<<< HEAD
-
-public class PA {
-=======
-public class PA extends Crew{
+public class PA extends Crew {
  private double hoursWorked;
 
- public PA(String name, double salary, String department){
-  super(name,salary,department);
+ public PA(String name, double salary, String department) {
+  super(name, salary, department);
   this.hoursWorked = 0;
 
  }
@@ -19,10 +15,10 @@ public class PA extends Crew{
  public void setHoursWorked(double hoursWorked) {
   this.hoursWorked += hoursWorked;
  }
- public void payCalc(){
+
+ public void payCalc() {
   earnedIncome = getSalary() * hoursWorked;
   System.out.println("Your PA's earned income is" + earnedIncome);
   this.hoursWorked = 0;
  }
->>>>>>> 4c106dd1676b3e75dbb13e3ed02d0e3d4ba30e46
 }
