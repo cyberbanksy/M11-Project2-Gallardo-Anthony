@@ -2,9 +2,10 @@ package com.company;
 
 public class Person{
     // state or properties
-    private String name;
-    private double salary;
+    protected String name;
+    protected double salary;
     protected double earnedIncome;
+
     public Person(String name, double salary){
         this.name = name;
         this.salary = salary;
