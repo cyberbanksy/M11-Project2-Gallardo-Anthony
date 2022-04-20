@@ -12,7 +12,7 @@ private double moneyEarned;
 private double moneySpent;
 private static double profit;
 
-public void Movie(String genre, Director director,List<Actor>actors,List<Crew>crews,double budget){
+public Movie(String genre, Director director,List<Actor>actors,List<Crew>crews,double budget){
     this.genre = genre;
     this.director = director;
     this.actors = actors;
@@ -49,7 +49,7 @@ public void payDay(){
 
 public void updateMoneyEarned(double moneyEarned){
     this.moneyEarned += moneyEarned;
-    updateProfit(moneyEarned);
+    updateProfit(this.moneyEarned);
     director.RoyalCalc();
 
 }
